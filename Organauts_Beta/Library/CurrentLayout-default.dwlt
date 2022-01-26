@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 706, y: 492}
+  m_MaxSize: {x: 18001, y: 14042}
   vertical: 0
-  controlID: 7730
+  controlID: 8491
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1978
     height: 1307
-  m_MinSize: {x: 433, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 431, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 7731
+  controlID: 8492
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1978
     height: 974
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 7732
+  controlID: 8493
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 489.33334
+    width: 488.66666
     height: 974
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 489.33334
+    x: 488.66666
     y: 0
-    width: 1488.6666
+    width: 1489.3334
     height: 974
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -247,10 +247,10 @@ MonoBehaviour:
     y: 974
     width: 1978
     height: 333
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 431, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 7674
+  controlID: 8470
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,15 +444,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
-    width: 488.33334
+    width: 487.66666
     height: 953
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 90c4ffff608a0000268c0000
+      m_SelectedIDs: 3ec5ffff
+      m_LastClickedID: -15042
+      m_ExpandedIDs: 66f7ffff6af7ffff80f7ffff88f7ffff6afbffff724c0000544d0000d04d0000f04d00002a4e00003a4e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -497,9 +497,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 489.33334
+    x: 488.6667
     y: 72.66667
-    width: 1486.6666
+    width: 1487.3334
     height: 953
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3021562, y: -1.5862665, z: 0.22366977}
+    m_Target: {x: -3.8901448, y: -1.5082104, z: 1.7329301}
     speed: 2
-    m_Value: {x: 1.3021562, y: -1.5862665, z: 0.22366977}
+    m_Value: {x: -3.8901448, y: -1.5082104, z: 1.7329301}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -562,13 +562,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.21307531, y: 0.37319097, z: -0.08850852, w: -0.8986812}
+    m_Target: {x: -0.09044428, y: 0.6284009, z: -0.07432763, w: -0.76935214}
     speed: 2
-    m_Value: {x: -0.21319354, y: 0.3718176, z: -0.08818289, w: -0.8991797}
+    m_Value: {x: -0.089268506, y: 0.6283562, z: -0.073366225, w: -0.7692964}
   m_Size:
-    m_Target: 5.3774347
+    m_Target: 5.7287455
     speed: 2
-    m_Value: 5.0774345
+    m_Value: 5.7287455
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -658,22 +658,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Cell_Explorer/Meshes
+    - Assets/External/Crystal_Shaders/Plugins/VolumetricCrystalMaterials/Materials/Mobile
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Cell_Explorer/Meshes
+  - Assets/External/Crystal_Shaders/Plugins/VolumetricCrystalMaterials/Materials/Mobile
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\3dcer\Documents\GitHub\Organauts\OGN_Beta_Repo\Organauts_Beta
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 7a9b0000
-    m_LastClickedID: 39802
-    m_ExpandedIDs: 00000000469b0000489b00004a9b00004c9b00004e9b0000509b0000529b0000549b0000569b0000589b00005a9b00005c9b00005e9b0000609b0000629b0000649b000000ca9a3b
+    scrollPos: {x: 0, y: 204}
+    m_SelectedIDs: e88c0000
+    m_LastClickedID: 36072
+    m_ExpandedIDs: 00000000d2610000d4610000d6610000d8610000da610000dc610000de610000e0610000e2610000e4610000e6610000e8610000ea610000ec610000ee610000f06100001a620000ce8c0000d68c0000da8c0000e08c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -701,7 +701,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000469b0000489b00004a9b00004c9b00004e9b0000509b0000529b0000549b0000569b0000589b00005a9b00005c9b00005e9b0000609b0000629b0000649b000000ca9a3b
+    m_ExpandedIDs: 00000000d2610000d4610000d6610000d8610000da610000dc610000de610000e0610000e2610000e4610000e6610000e8610000ea610000ec610000ee610000f061000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

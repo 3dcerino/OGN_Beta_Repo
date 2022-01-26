@@ -568,7 +568,6 @@
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
-    <None Include="Assets\Test.txt" />
     <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Additive.shader" />
     <None Include="Assets\External\Crystal_Shaders\Plugins\VolumetricCrystalMaterials\Shaders\VolumetricMobile.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />

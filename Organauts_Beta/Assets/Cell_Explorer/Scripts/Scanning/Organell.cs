@@ -11,6 +11,7 @@ public class Organell : ScriptableObject
 
     [Header("Light Effect Parameters")]
     [SerializeField] private Color lightColor = Color.white;
+    [SerializeField] private float lightIntensity = 1;
     [SerializeField] private float minLightRange = 1;
     [SerializeField] private float maxLightRange = 8;
     [SerializeField] private Vector3 lightPositionOffset; // -> Where the light should be placed, relative to the organelle's position. 
@@ -19,6 +20,7 @@ public class Organell : ScriptableObject
     public AudioClip DescriptionClip => descriptionClip;
     public Sprite Sprite => uISprite;
     public Color LightColor => lightColor;
+    public float LightIntensity => lightIntensity;
     public float MinLightRange => minLightRange;
     public float MaxLightRange => maxLightRange;
     public Vector3 LightPositionOffset => lightPositionOffset;

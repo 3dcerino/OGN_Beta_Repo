@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abb343d5f2a306408734237f62fa35a, type: 3}
+  m_Name: Centriole_Test
+  m_EditorClassIdentifier: 
+  organelleName: Centriole
+  descriptionClip: {fileID: 8300000, guid: 756bb81844c5ac049ab15e11f86fa3ec, type: 3}
+  uISprite: {fileID: 0}
+  lightColor: {r: 0.71132076, g: 0.9124248, b: 1, a: 1}
+  lightIntensity: 3.5
+  minLightRange: 1
+  maxLightRange: 8
+  lightPositionOffset: {x: 0, y: 0.2, z: 0}

@@ -41,7 +41,7 @@ public class Scanner : MonoBehaviour
 
     public void StopScan()
     {
-        if (!scanning && !canInterrupt)
+        if (!scanning && !canInterrupt && scanRoutine != null) 
             return;
 
         Debug.Log("Scan Interrupted");
@@ -56,6 +56,10 @@ public class Scanner : MonoBehaviour
     {
         scanning = true;
         canInterrupt = true;
+
+        scanLight.intensity = target.LightIntensity;
+        scanLight.color = target.LightColor;
+        scanLight.range = target.MinLightRange;
         scanLight.enabled = true;
 
         Vector3 midPoint = transform.position + (Vector3.Normalize(rightHandCube.position - transform.position) * (Vector3.Distance(transform.position, rightHandCube.position) / 2));
@@ -66,6 +70,7 @@ public class Scanner : MonoBehaviour
         float interpolator = 0;
         int interpolDirection = 1;
 
+        //Light strobes at specified speed while scan time is fullfilled.
         while (elapsedScanTime < timeToScan)
         {           
 

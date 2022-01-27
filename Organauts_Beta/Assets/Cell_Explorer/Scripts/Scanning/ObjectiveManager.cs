@@ -23,7 +23,10 @@ public class ObjectiveManager : MonoBehaviour
 
         if(arrayIndex < statuses.Length)
         {
+            Debug.Log(organelle.OrganelleName + " has been previously scanned: " + statuses[arrayIndex]);
+            
             return statuses[arrayIndex];
+
         }
 
         else
@@ -39,6 +42,8 @@ public class ObjectiveManager : MonoBehaviour
     public void Accomplish(Organell organelle)
     {
         statuses[ObjectiveIndexOf(organelle)] = true;
+
+        Debug.Log(organelle.OrganelleName + " scan registered");
     }
 
     private int ObjectiveIndexOf(Organell organelle)

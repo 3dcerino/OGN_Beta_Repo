@@ -192,6 +192,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRNetwork.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncConnection.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\Organell.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\SetRefreshRate.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\TEstingButtons.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\User.cs" />
@@ -262,6 +263,7 @@
     <Compile Include="Assets\Oculus\Platform\Scripts\LivestreamingAudience.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRaycaster.cs" />
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Modifiers\MDM_Bend.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ScannableObject.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\LaunchType.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\PlayerArea.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\CharacterCameraConstraint.cs" />
@@ -333,6 +335,7 @@
     <Compile Include="Assets\Cell_Explorer\Scripts\ButtonVisualController.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\LeaderboardEntry.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Product.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ObjectiveManager.cs" />
     <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DShotgun.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\IMicrophone.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\UserReportID.cs" />
@@ -416,6 +419,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\Turrets\F3DTurret.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\Scanner.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Decoder.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\InstalledApplication.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRCameraRig.cs" />
@@ -564,10 +568,7 @@
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Shapes\MD_Triangle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\IVoipPCMSource.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\Organell.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ObjectiveManager.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ScannableObject.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\Scanner.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ObjectiveUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

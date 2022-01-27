@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   organelleName: Centriole
   descriptionClip: {fileID: 8300000, guid: 756bb81844c5ac049ab15e11f86fa3ec, type: 3}
-  uISprite: {fileID: 0}
+  uISprite: {fileID: 21300000, guid: 794844ef9d90a5d49aaef78f98e4f0b1, type: 3}
   lightColor: {r: 0.71132076, g: 0.9124248, b: 1, a: 1}
-  lightIntensity: 3.5
-  minLightRange: 1
-  maxLightRange: 8
+  lightIntensity: 6.1
+  minLightRange: 0.5
+  maxLightRange: 6
   lightPositionOffset: {x: 0, y: 0.2, z: 0}

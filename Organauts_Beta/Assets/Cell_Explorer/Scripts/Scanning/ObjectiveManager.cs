@@ -7,13 +7,15 @@ public class ObjectiveManager : MonoBehaviour
 
 
     [SerializeField] private Organell[] objectives;
+    [SerializeField] private ObjectiveUI ui;
+    
     private bool[] statuses;
 
 
     private void Start()
     {
         statuses = new bool[objectives.Length];
-        //Create UI Objective list
+        ui.PopulateSpriteList(objectives);
 
     }
 
@@ -41,7 +43,10 @@ public class ObjectiveManager : MonoBehaviour
 
     public void Accomplish(Organell organelle)
     {
-        statuses[ObjectiveIndexOf(organelle)] = true;
+        int organelleIndex = ObjectiveIndexOf(organelle);
+
+        statuses[organelleIndex] = true;
+        ui.ActivateSprite(organelleIndex);
 
         Debug.Log(organelle.OrganelleName + " scan registered");
     }

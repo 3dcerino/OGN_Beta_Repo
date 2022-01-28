@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GemPurpleMobile
   m_Shader: {fileID: 4800000, guid: a3a4fe4479a5cc6459bd7596e9c7c449, type: 3}
-  m_ShaderKeywords: EnableFresnel EnableLayer0 EnableLayer1 EnableRefraction EnableSpecular
-    EnableSurfaceMask
+  m_ShaderKeywords: EnableLayer0 EnableRefraction
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -62,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MarbleTex:
         m_Texture: {fileID: 2800000, guid: 20da242b149bc054ab73423d1d1931bf, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -89,15 +88,15 @@ Material:
     - _DstBlend: 0
     - _EnableCaustic: 0
     - _EnableFog: 0
-    - _EnableFresnel: 1
+    - _EnableFresnel: 0
     - _EnableFresnelUseSkybox: 0
     - _EnableInnerLight: 0
     - _EnableLayer0: 1
-    - _EnableLayer1: 1
+    - _EnableLayer1: 0
     - _EnableLayer2: 0
     - _EnableRefraction: 1
-    - _EnableSpecular: 1
-    - _EnableSurfaceMask: 1
+    - _EnableSpecular: 0
+    - _EnableSurfaceMask: 0
     - _FresnelTightness: 3.26
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -120,7 +119,7 @@ Material:
     - _LayerHeightBiasStep: 0.09
     - _LayerSpeed: 0
     - _MarbleHeightCausticOffset: 0
-    - _MarbleHeightScale: 0.102
+    - _MarbleHeightScale: 0.1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -141,7 +140,7 @@ Material:
     - _FresnelColorOutside: {r: 1, g: 1, b: 1, a: 1}
     - _InnerLightColorInside: {r: 1, g: 0.39310342, b: 0, a: 1}
     - _InnerLightColorOutside: {r: 1, g: 0, b: 0, a: 1}
-    - _Layer0Tint: {r: 0.24137926, g: 0, b: 1, a: 1}
+    - _Layer0Tint: {r: 1, g: 0, b: 0.7843137, a: 1}
     - _Layer1Tint: {r: 1, g: 1, b: 1, a: 1}
     - _Layer2Tint: {r: 1, g: 1, b: 1, a: 1}
     - _MeiosisPos: {r: 0, g: 0, b: 0, a: 0}

@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MagicCrystalOrangeMobile
   m_Shader: {fileID: 4800000, guid: a3a4fe4479a5cc6459bd7596e9c7c449, type: 3}
-  m_ShaderKeywords: EnableFresnel EnableLayer0 EnableLayer1 EnableRefraction EnableSpecular
-    EnableSurfaceMask
+  m_ShaderKeywords: EnableInnerLight EnableLayer0 EnableLayer1 EnableRefraction EnableSurfaceMask
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -89,14 +88,14 @@ Material:
     - _DstBlend: 0
     - _EnableCaustic: 0
     - _EnableFog: 0
-    - _EnableFresnel: 1
+    - _EnableFresnel: 0
     - _EnableFresnelUseSkybox: 0
-    - _EnableInnerLight: 0
+    - _EnableInnerLight: 1
     - _EnableLayer0: 1
     - _EnableLayer1: 1
     - _EnableLayer2: 0
     - _EnableRefraction: 1
-    - _EnableSpecular: 1
+    - _EnableSpecular: 0
     - _EnableSurfaceMask: 1
     - _FresnelTightness: 4.95
     - _GlossMapScale: 1
@@ -105,7 +104,7 @@ Material:
     - _HeightBias: 0.1
     - _HeightBiasStep: 0.1
     - _HeightScale: 0.1
-    - _InnerLightTightness: 0.1
+    - _InnerLightTightness: 5.4
     - _Layer0Speed: 0
     - _Layer0SpeedX: 0
     - _Layer0SpeedY: -1
@@ -139,9 +138,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColorInside: {r: 0.42352942, g: 0.32696447, b: 0.18039215, a: 1}
     - _FresnelColorOutside: {r: 0.19074175, g: 0.27450982, b: 0.058823522, a: 1}
-    - _InnerLightColorInside: {r: 1, g: 1, b: 1, a: 1}
+    - _InnerLightColorInside: {r: 1, g: 0.5357945, b: 0, a: 1}
     - _InnerLightColorOutside: {r: 0, g: 0, b: 0, a: 1}
-    - _Layer0Tint: {r: 0.031372543, g: 0.18039216, b: 0.050931316, a: 1}
+    - _Layer0Tint: {r: 0.1152701, g: 0.18039216, b: 0.031372543, a: 1}
     - _Layer1Tint: {r: 0.32156864, g: 0.3086959, b: 0.20784314, a: 1}
     - _Layer2Tint: {r: 1, g: 1, b: 1, a: 1}
     - _MeiosisPos: {r: 0, g: 0, b: 0, a: 0}

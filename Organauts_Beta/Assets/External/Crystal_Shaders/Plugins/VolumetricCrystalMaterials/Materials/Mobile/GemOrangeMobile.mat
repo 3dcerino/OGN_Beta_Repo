@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MarbleTex:
         m_Texture: {fileID: 2800000, guid: 20da242b149bc054ab73423d1d1931bf, type: 3}
-        m_Scale: {x: 0, y: 0.1}
+        m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -138,9 +138,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColorInside: {r: 1, g: 0.2275862, b: 0, a: 1}
     - _FresnelColorOutside: {r: 1, g: 0.8864097, b: 0.58823526, a: 1}
-    - _InnerLightColorInside: {r: 1, g: 0.077518955, b: 0, a: 1}
-    - _InnerLightColorOutside: {r: 1, g: 0, b: 0, a: 1}
-    - _Layer0Tint: {r: 0.6911765, g: 0.310013, b: 0.310013, a: 1}
+    - _InnerLightColorInside: {r: 0, g: 1, b: 0.3437066, a: 1}
+    - _InnerLightColorOutside: {r: 0.032125235, g: 1, b: 0, a: 1}
+    - _Layer0Tint: {r: 0.30980393, g: 0.6901961, b: 0.3553889, a: 1}
     - _Layer1Tint: {r: 1, g: 1, b: 1, a: 1}
     - _Layer2Tint: {r: 1, g: 1, b: 1, a: 1}
     - _MeiosisPos: {r: 0, g: 0, b: 0, a: 0}

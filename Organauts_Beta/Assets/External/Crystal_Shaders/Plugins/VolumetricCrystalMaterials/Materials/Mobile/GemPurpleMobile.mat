@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GemPurpleMobile
   m_Shader: {fileID: 4800000, guid: a3a4fe4479a5cc6459bd7596e9c7c449, type: 3}
-  m_ShaderKeywords: EnableLayer0 EnableRefraction
+  m_ShaderKeywords: EnableInnerLight EnableLayer0 EnableRefraction EnableSurfaceMask
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -90,13 +90,13 @@ Material:
     - _EnableFog: 0
     - _EnableFresnel: 0
     - _EnableFresnelUseSkybox: 0
-    - _EnableInnerLight: 0
+    - _EnableInnerLight: 1
     - _EnableLayer0: 1
     - _EnableLayer1: 0
     - _EnableLayer2: 0
     - _EnableRefraction: 1
     - _EnableSpecular: 0
-    - _EnableSurfaceMask: 0
+    - _EnableSurfaceMask: 1
     - _FresnelTightness: 3.26
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -104,7 +104,7 @@ Material:
     - _HeightBias: 0.1
     - _HeightBiasStep: 0.1
     - _HeightScale: 0.1
-    - _InnerLightTightness: 0
+    - _InnerLightTightness: 10.2
     - _Layer0Speed: 0
     - _Layer0SpeedX: 0
     - _Layer0SpeedY: 0
@@ -145,5 +145,5 @@ Material:
     - _Layer2Tint: {r: 1, g: 1, b: 1, a: 1}
     - _MeiosisPos: {r: 0, g: 0, b: 0, a: 0}
     - _MyVector: {r: 0, g: 0, b: 0, a: 0}
-    - _SurfaceAlphaColor: {r: 0.33496612, g: 0.11807961, b: 0.38235295, a: 1}
+    - _SurfaceAlphaColor: {r: 1, g: 0.11006278, b: 0.99399835, a: 1}
   m_BuildTextureStacks: []

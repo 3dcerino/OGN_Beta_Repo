@@ -15,12 +15,12 @@ C:/Users/3dcer/Documents/GitHub/Organauts/OGN_Beta_Repo/Organauts_Beta
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57719
+53567
 Successfully changed project path to: C:/Users/3dcer/Documents/GitHub/Organauts/OGN_Beta_Repo/Organauts_Beta
 C:/Users/3dcer/Documents/GitHub/Organauts/OGN_Beta_Repo/Organauts_Beta
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.79 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 13.56 ms.
+Refreshing native plugins compatible for Editor in 119.62 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 4.27 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/3dcer/Documents/GitHub/Organauts/OGN_Beta_Repo/Organauts_Beta/Assets
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005036 seconds.
+Registered in 0.004951 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.43 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
+Refreshing native plugins compatible for Editor in 82.57 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (304ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026412 seconds.
+Registered in 0.019776 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -101,45 +101,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.505 seconds
+- Completed reload, in  1.777 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2506ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (1779ms)
+		BeginReloadAssembly (266ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2152ms)
-			LoadAssemblies (293ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1408ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (798ms)
+			SetupTypeCache (470ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (151ms)
-			SetupLoadedEditorAssemblies (637ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (548ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (203ms)
-				ProcessInitializeOnLoadAttributes (367ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
 Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.2 MB.
 System memory in use after: 104.4 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3009.
-Total: 4.826600 ms (FindLiveObjects: 0.544000 ms CreateObjectMapping: 0.320800 ms MarkObjects: 3.873600 ms  DeleteObjects: 0.086200 ms)
+Total: 4.124400 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.144200 ms MarkObjects: 3.650200 ms  DeleteObjects: 0.073800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,156 +154,324 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Cell_Explorer/Meshes
-  artifactKey: Guid(6a388b63e48ea3246bc800375dc93d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes using Guid(6a388b63e48ea3246bc800375dc93d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ba16416ad218f15f3edc1b2c5d226a') in 0.010707 seconds 
-  Import took 0.017014 seconds .
+  path: Assets/Cell_Explorer/Meshes/SM_Rough_Ret.fbx
+  artifactKey: Guid(324fef7c37119cd4e8efecd332915e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Meshes/SM_Rough_Ret.fbx using Guid(324fef7c37119cd4e8efecd332915e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976f7a0c3e2cb0e09e5e10dc9524d160') in 0.304078 seconds 
+  Import took 0.309305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.240089 seconds.
-  path: Assets/Cell_Explorer/Meshes/AM_Nucleus.fbx
-  artifactKey: Guid(71f51d56c96a6ea49a1e0a997c23f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/AM_Nucleus.fbx using Guid(71f51d56c96a6ea49a1e0a997c23f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b698352994d98ad9f2fee02c5131bf5') in 0.249440 seconds 
-  Import took 0.255355 seconds .
+  Time since last request: 0.000585 seconds.
+  path: Assets/Cell_Explorer/Meshes/SM_Smooth_Ret.fbx
+  artifactKey: Guid(791ef67c5ea44eb478921b13be530053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Meshes/SM_Smooth_Ret.fbx using Guid(791ef67c5ea44eb478921b13be530053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dd59ce759223ab8beea5bad4e59240') in 0.029947 seconds 
+  Import took 0.035651 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.897694 seconds.
-  path: Assets/Cell_Explorer/Meshes/AM_Nucleus.fbx
-  artifactKey: Guid(71f51d56c96a6ea49a1e0a997c23f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/AM_Nucleus.fbx using Guid(71f51d56c96a6ea49a1e0a997c23f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6021c1264fef3c7b7c1b6bee2b4a138f') in 0.039234 seconds 
-  Import took 0.044925 seconds .
+  Time since last request: 161.006359 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(8351de83e45a994488cc3e2bcf37a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(8351de83e45a994488cc3e2bcf37a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005bc31529efa41fd33215b9cc3b88cb') in 0.005473 seconds 
+  Import took 0.011903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 90.548341 seconds.
-  path: Assets/Cell_Explorer/Nucleus
-  artifactKey: Guid(29ce824be64dc7b448d9500973c7f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus using Guid(29ce824be64dc7b448d9500973c7f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaf3433cb129ea82b3b4e7e3f9afe02') in 0.005313 seconds 
-  Import took 0.010599 seconds .
+  Time since last request: 0.086693 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(e328698596ef4194ea5bd6bbf1cc67ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(e328698596ef4194ea5bd6bbf1cc67ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79110a7f45d1a0ed6b23d1597cb24a7b') in 0.010012 seconds 
+  Import took 0.016004 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.072880 seconds.
-  path: Assets/Cell_Explorer/Nucleus/MAT_Nucleus.mat
-  artifactKey: Guid(72b50e2b0e24e4547bca6a918ff43839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/MAT_Nucleus.mat using Guid(72b50e2b0e24e4547bca6a918ff43839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8108131e950e43f070819af9a08a2e38') in 1.052263 seconds 
-  Import took 1.076324 seconds .
+  Time since last request: 0.000620 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(48b2a33c6fa5ecd4bb81dd9397403bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(48b2a33c6fa5ecd4bb81dd9397403bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b1b953541bcf482fda2833d130478') in 0.007518 seconds 
+  Import took 0.012998 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Cell_Explorer/Nucleus/SM_Nucleus.fbx
-  artifactKey: Guid(1625533c5a6fbc848891f8ad06ce2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/SM_Nucleus.fbx using Guid(1625533c5a6fbc848891f8ad06ce2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fadeaba6234d2e46def74ef2fd9fafe') in 0.036030 seconds 
-  Import took 0.041099 seconds .
+  Time since last request: 8.662689 seconds.
+  path: Assets/Cell_Explorer/Images
+  artifactKey: Guid(86fb56a586abf1e489f677d3d010facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Images using Guid(86fb56a586abf1e489f677d3d010facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e9ce6b8c60bd816eab36340a5ef5fb') in 0.005208 seconds 
+  Import took 0.010398 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.299419 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg
-  artifactKey: Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg using Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffc5453027ba562c104873b8e36903a') in 0.051392 seconds 
-  Import took 0.056707 seconds .
+  Time since last request: 11.523543 seconds.
+  path: Assets/External/BiologyCellsPack
+  artifactKey: Guid(25f5684c94d50654d8c9f77c2c3caa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/BiologyCellsPack using Guid(25f5684c94d50654d8c9f77c2c3caa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e32b919f68edeed892c43ac84e9b85') in 0.005146 seconds 
+  Import took 0.010943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO.jpg
-  artifactKey: Guid(3fce73a1aa79dad4f84d760b34c13145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO.jpg using Guid(3fce73a1aa79dad4f84d760b34c13145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71ea0c73f0297b85e1a6e03316d43ef') in 0.014126 seconds 
-  Import took 0.019242 seconds .
+  Time since last request: 1.274254 seconds.
+  path: Assets/External/BiologyCellsPack/Textures
+  artifactKey: Guid(9bc117722c5a7dd448400cb10e031e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/BiologyCellsPack/Textures using Guid(9bc117722c5a7dd448400cb10e031e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e084cefc72d68c51e587edf7558b22') in 0.005858 seconds 
+  Import took 0.011723 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee559e0bec45e4b114bb776ce6d453e5') in 0.016232 seconds 
-  Import took 0.021616 seconds .
+  Time since last request: 26.117089 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum
+  artifactKey: Guid(217dbb64a8c7efa41af668845bb28b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum using Guid(217dbb64a8c7efa41af668845bb28b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e757dea1008a891b52d8e2d4c254c33b') in 0.004869 seconds 
+  Import took 0.010571 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg
-  artifactKey: Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg using Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5baf7e5864fd7ecd5237c45f1f65478') in 0.015268 seconds 
-  Import took 0.021202 seconds .
+  Time since last request: 13.667934 seconds.
+  path: Assets/Cell_Explorer/Nucleus/MAT_Nucleus 1.mat
+  artifactKey: Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Nucleus/MAT_Nucleus 1.mat using Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f6f4d9b4c7d3b2ce6840525ad8ef6c') in 0.676536 seconds 
+  Import took 0.696895 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000622 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic.jpg
-  artifactKey: Guid(e95266ef95648a4449f0079409ab84f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic.jpg using Guid(e95266ef95648a4449f0079409ab84f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea9814de26f2f6482fffd41fd7ce76c') in 0.014410 seconds 
-  Import took 0.021058 seconds .
+  Time since last request: 16.964858 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret.mat
+  artifactKey: Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret.mat using Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442ad61b2acb55d29213822c234c76e2') in 0.242580 seconds 
+  Import took 0.262773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.207837 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg
-  artifactKey: Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg using Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734f78d93491e004b756033393e29b67') in 0.369866 seconds 
-  Import took 0.389914 seconds .
+  Time since last request: 24.635433 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Albedo.jpg
+  artifactKey: Guid(9ce0a591b24b33648a15aaa0b1343441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Albedo.jpg using Guid(9ce0a591b24b33648a15aaa0b1343441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68666d8415da4587b88d64434dd09e17') in 0.204300 seconds 
+  Import took 0.209806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021793 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg
-  artifactKey: Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg using Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a61d08cf424bbcc07bb383f26e91d6') in 0.146501 seconds 
-  Import took 0.158573 seconds .
+  Time since last request: 0.000602 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Metallic.jpg
+  artifactKey: Guid(4a0776db61efbe74da13b0fe4782a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Metallic.jpg using Guid(4a0776db61efbe74da13b0fe4782a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36f7db43466e13fd7c9b76712d15643') in 0.016962 seconds 
+  Import took 0.021982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO.jpg
-  artifactKey: Guid(3fce73a1aa79dad4f84d760b34c13145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO.jpg using Guid(3fce73a1aa79dad4f84d760b34c13145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c2a6a07a48c0b44adfb80ab26a5811') in 0.100830 seconds 
-  Import took 0.111310 seconds .
+  Time since last request: 0.000587 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_AO.jpg
+  artifactKey: Guid(bf759f43583b4974a8deb88436ac293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_AO.jpg using Guid(bf759f43583b4974a8deb88436ac293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ed29c19e6e983190b8e9964933e453') in 0.013950 seconds 
+  Import took 0.019269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6394cad8d785ab509e7e8e4f7ceacb69') in 0.150170 seconds 
-  Import took 0.160064 seconds .
+  Time since last request: 0.000604 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg
+  artifactKey: Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg using Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4b2b87e889781e51b57c05a75ec313') in 0.016231 seconds 
+  Import took 0.022096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic.jpg
-  artifactKey: Guid(e95266ef95648a4449f0079409ab84f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic.jpg using Guid(e95266ef95648a4449f0079409ab84f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3eb5440fdebb435f7e2e7f2de9cb7f') in 0.113060 seconds 
-  Import took 0.124031 seconds .
+  Time since last request: 0.000626 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Height.jpg
+  artifactKey: Guid(6e8d6eacadffdbb48afca3df2946d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Height.jpg using Guid(6e8d6eacadffdbb48afca3df2946d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491879751009e1b036ebeefefc591f5f') in 0.014819 seconds 
+  Import took 0.020390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.713492 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8eb20a3c590110a71427e4bff825936') in 0.148562 seconds 
-  Import took 0.162791 seconds .
+  Time since last request: 16.321802 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg
+  artifactKey: Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg using Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b6905075bc238423da4264683baa83') in 0.020226 seconds 
+  Import took 0.026542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.118491 seconds.
-  path: Assets/Cell_Explorer/Nucleus/MAT_Nucleus.mat
-  artifactKey: Guid(72b50e2b0e24e4547bca6a918ff43839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/MAT_Nucleus.mat using Guid(72b50e2b0e24e4547bca6a918ff43839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1b3da851623744d90afa5029d06e50') in 0.455055 seconds 
-  Import took 0.475510 seconds .
+  Time since last request: 15.345574 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Albedo.jpg
+  artifactKey: Guid(9ce0a591b24b33648a15aaa0b1343441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Albedo.jpg using Guid(9ce0a591b24b33648a15aaa0b1343441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c553acae24525f438ddf59a0c2a44') in 0.229250 seconds 
+  Import took 0.239874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Metallic.jpg
+  artifactKey: Guid(4a0776db61efbe74da13b0fe4782a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Metallic.jpg using Guid(4a0776db61efbe74da13b0fe4782a4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4835fbcbd4f96d836028969e8a7df7b') in 0.118100 seconds 
+  Import took 0.127970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_AO.jpg
+  artifactKey: Guid(bf759f43583b4974a8deb88436ac293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_AO.jpg using Guid(bf759f43583b4974a8deb88436ac293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9795640a50868f0e27bcfc1662be138') in 0.199585 seconds 
+  Import took 0.215153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg
+  artifactKey: Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Normal.jpg using Guid(51c78d0e158175246ae7643ddb125dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9265aeda46e236d1f1c739da0f76d1') in 0.194579 seconds 
+  Import took 0.205738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Height.jpg
+  artifactKey: Guid(6e8d6eacadffdbb48afca3df2946d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/T_Rough_Ret_Height.jpg using Guid(6e8d6eacadffdbb48afca3df2946d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db9b600153896a54da64c75720255cc') in 0.171952 seconds 
+  Import took 0.183209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.123490 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret
+  artifactKey: Guid(98b43752d4313a242a0b7a53809402c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret using Guid(98b43752d4313a242a0b7a53809402c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c6a7655eab2451730ec8e7f09f90ee') in 0.004886 seconds 
+  Import took 0.011163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.319782 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret 1.mat
+  artifactKey: Guid(15919729002c6544db16c3beca2c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret 1.mat using Guid(15919729002c6544db16c3beca2c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb0100413cd552ab9771e6f7bdcbf5c') in 0.515620 seconds 
+  Import took 0.535989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret.mat
+  artifactKey: Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Rough Reticulum/MAT_Rough_Ret.mat using Guid(b04a0859347ccf14583cc97e44c39883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb4dad5afa2f1636d598bc7751cadc') in 0.248253 seconds 
+  Import took 0.268486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.854762 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Albedo.jpg
+  artifactKey: Guid(162840d28d4bf0b4c9e21995a5c7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Albedo.jpg using Guid(162840d28d4bf0b4c9e21995a5c7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365818d89ef26c38f4f6c6a683701d03') in 0.015561 seconds 
+  Import took 0.021740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg
+  artifactKey: Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg using Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c101ef9cf4e9067fd20e0579d2c761e') in 0.040858 seconds 
+  Import took 0.046736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Height.jpg
+  artifactKey: Guid(64590fac4582a50488c0e19aa60fb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Height.jpg using Guid(64590fac4582a50488c0e19aa60fb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4a43108d7b5f0b4b0c7dbaedb57073') in 0.013882 seconds 
+  Import took 0.020373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_AO.jpg
+  artifactKey: Guid(5dc699560bbe2dd478aa8f80554cbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_AO.jpg using Guid(5dc699560bbe2dd478aa8f80554cbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badb3c1711677366fd0ca8040ae1890e') in 0.016164 seconds 
+  Import took 0.021303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Metallic.jpg
+  artifactKey: Guid(69fa54a2abe922c4d95310b6e5f97f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Metallic.jpg using Guid(69fa54a2abe922c4d95310b6e5f97f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96083f328abb17cb39ff4dba45754218') in 0.012572 seconds 
+  Import took 0.019629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.716671 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/MAT_Smooth_Ret.mat
+  artifactKey: Guid(15919729002c6544db16c3beca2c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/MAT_Smooth_Ret.mat using Guid(15919729002c6544db16c3beca2c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7642f43a7b2ee4b017c1a053919fab95') in 0.281609 seconds 
+  Import took 0.297411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.801909 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg
+  artifactKey: Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg using Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbfe14be99b5623ef25173d5766194f') in 0.022477 seconds 
+  Import took 0.028081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.315892 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg
+  artifactKey: Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Normal.jpg using Guid(6796773394be95d46933871699d4b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9516c71ed77e85d7f23596093cb06fac') in 0.296919 seconds 
+  Import took 0.308357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Height.jpg
+  artifactKey: Guid(64590fac4582a50488c0e19aa60fb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Height.jpg using Guid(64590fac4582a50488c0e19aa60fb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b4d48bef88a9a283ac017000a2fee') in 0.235673 seconds 
+  Import took 0.245628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Albedo.jpg
+  artifactKey: Guid(162840d28d4bf0b4c9e21995a5c7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Albedo.jpg using Guid(162840d28d4bf0b4c9e21995a5c7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361b24d9b62d6a98a621653cf87dce46') in 0.136719 seconds 
+  Import took 0.147293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_AO.jpg
+  artifactKey: Guid(5dc699560bbe2dd478aa8f80554cbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_AO.jpg using Guid(5dc699560bbe2dd478aa8f80554cbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e148faede54f61c1bb41339c0c5297e') in 0.137566 seconds 
+  Import took 0.147470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Metallic.jpg
+  artifactKey: Guid(69fa54a2abe922c4d95310b6e5f97f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Smooth Ret/T_Smooth_Ret_Metallic.jpg using Guid(69fa54a2abe922c4d95310b6e5f97f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f28b3785947fceb770550ef7774d2') in 0.117594 seconds 
+  Import took 0.127850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2655.492175 seconds.
+  path: Assets/Cell_Explorer/Scripts/Scanning
+  artifactKey: Guid(2dd58bbefb09b344d91b68b1c01c0e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cell_Explorer/Scripts/Scanning using Guid(2dd58bbefb09b344d91b68b1c01c0e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b0e3f58c8a529c8076fe514dfa502') in 0.006523 seconds 
+  Import took 0.022089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.275463 seconds.
+  path: Assets/Scriptable Objects
+  artifactKey: Guid(7df466f30bf929c429cb3ed023f8ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects using Guid(7df466f30bf929c429cb3ed023f8ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27842c08a9322b06ccfab5d946220373') in 0.005382 seconds 
+  Import took 0.012172 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.055618 seconds.
+Registered in 0.038851 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
@@ -320,778 +488,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.566 seconds
+- Completed reload, in  1.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1566ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1740ms)
+		BeginReloadAssembly (310ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (20ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1299ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (156ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (452ms)
+			SetupTypeCache (485ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (474ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (485ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
 Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.6 MB.
 System memory in use after: 105.8 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3059.
-Total: 3.907400 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.149700 ms MarkObjects: 3.464100 ms  DeleteObjects: 0.031700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 294.592145 seconds.
-  path: Assets/Cell_Explorer/Meshes/Take 001.anim
-  artifactKey: Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/Take 001.anim using Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef64467fb67a33e0bf97e64bdce18f6c') in 0.026706 seconds 
-  Import took 0.032543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.759549 seconds.
-  path: Assets/Cell_Explorer/Meshes/NucleusRotation.anim
-  artifactKey: Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/NucleusRotation.anim using Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b0dbddb701da2a28f523d19d734c1') in 0.006948 seconds 
-  Import took 0.013293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.511640 seconds.
-  path: Assets/Cell_Explorer/Meshes/OuterMembraneAnimation.anim
-  artifactKey: Guid(3984abc3d9e72544ea85b5c55b4a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/OuterMembraneAnimation.anim using Guid(3984abc3d9e72544ea85b5c55b4a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af877d97f68f1f987461b2f3e8096aa') in 0.006253 seconds 
-  Import took 0.011919 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019046 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.586 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1587ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1326ms)
-			LoadAssemblies (144ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (490ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (469ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3062.
-Total: 4.122000 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.150000 ms MarkObjects: 3.685400 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 75.638491 seconds.
-  path: Assets/Cell_Explorer/Meshes/AM_Nucleus.controller
-  artifactKey: Guid(eb727bfe361d51a46aa767de49d1faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/AM_Nucleus.controller using Guid(eb727bfe361d51a46aa767de49d1faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a5e3834954c9024c70a360d6fa9d4c') in 0.025131 seconds 
-  Import took 0.032060 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021198 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.571 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1572ms)
-		BeginReloadAssembly (167ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1305ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (444ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (500ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3065.
-Total: 3.980900 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.143800 ms MarkObjects: 3.554100 ms  DeleteObjects: 0.028400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.092544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.45 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.641 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3646ms)
-		BeginReloadAssembly (409ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (170ms)
-		EndReloadAssembly (3006ms)
-			LoadAssemblies (454ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (1156ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (150ms)
-			SetupLoadedEditorAssemblies (896ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (260ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.76 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.40 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3068.
-Total: 12.567000 ms (FindLiveObjects: 0.654000 ms CreateObjectMapping: 0.281000 ms MarkObjects: 11.537100 ms  DeleteObjects: 0.092200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.040805 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.37 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.949 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1957ms)
-		BeginReloadAssembly (330ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (150ms)
-		EndReloadAssembly (1508ms)
-			LoadAssemblies (194ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (531ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (548ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.26 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3071.
-Total: 5.245300 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.188100 ms MarkObjects: 4.209700 ms  DeleteObjects: 0.521700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2274.214162 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo 1.jpg
-  artifactKey: Guid(fd049822bc718d24a8bdaf3851147eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo 1.jpg using Guid(fd049822bc718d24a8bdaf3851147eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a02c21f1464d55f640cedbc2fe00354') in 0.163486 seconds 
-  Import took 0.170619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000791 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO 1.jpg
-  artifactKey: Guid(69911bd6fb6580140a180e23f17f089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_AO 1.jpg using Guid(69911bd6fb6580140a180e23f17f089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d628153dc22c8446c4d2116917baea') in 0.014336 seconds 
-  Import took 0.019144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic 1.jpg
-  artifactKey: Guid(8a2219407c4c5374081f969b9195d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Metallic 1.jpg using Guid(8a2219407c4c5374081f969b9195d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d9380da53e953f0fa9d5bff5e16a1d') in 0.015746 seconds 
-  Import took 0.020731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal 1.jpg
-  artifactKey: Guid(e26494d523a1bcf4692ce2d7e27d01c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal 1.jpg using Guid(e26494d523a1bcf4692ce2d7e27d01c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c90d5bba039a75a94f7604f3b0dab3') in 0.014471 seconds 
-  Import took 0.019975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000692 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height 1.jpg
-  artifactKey: Guid(a75ffdbc08d7c8247b80e481e543ad06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height 1.jpg using Guid(a75ffdbc08d7c8247b80e481e543ad06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b090408ff1bf8a04b469b4cd21f29da9') in 0.015095 seconds 
-  Import took 0.020880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.903359 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg
-  artifactKey: Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg using Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a60ebc2551faaaae50df5479696781') in 0.014759 seconds 
-  Import took 0.022518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de28baa5731a1752a660a56b0be7b5fc') in 0.032918 seconds 
-  Import took 0.038795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg
-  artifactKey: Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg using Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd44b31025a238fce41b071812c7dd94') in 0.011960 seconds 
-  Import took 0.017393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.550733 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bbba04aaa0fc729f74936b2ccbdc43') in 0.045526 seconds 
-  Import took 0.051559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.337864 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg
-  artifactKey: Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Height.jpg using Guid(854d79228a1960f4c8ee4bf2fe24cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c158243184ad366aacd4e91169d38627') in 0.495379 seconds 
-  Import took 0.512234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg
-  artifactKey: Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Normal.jpg using Guid(987e10681dfb2dc47b6d8948019d0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2344108417ac4e5012979e978382f7ab') in 0.289965 seconds 
-  Import took 0.308096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg
-  artifactKey: Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Nucleus/T_Nucleuss_Albedo.jpg using Guid(ebe4916ad9130bd499061488c7be8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602442a30172da0b377a826786eb6149') in 0.180127 seconds 
-  Import took 0.190479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.250351 seconds.
-  path: Assets/Cell_Explorer/Meshes/AM_Nucleus.controller
-  artifactKey: Guid(eb727bfe361d51a46aa767de49d1faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/AM_Nucleus.controller using Guid(eb727bfe361d51a46aa767de49d1faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638d6196892547e28ed8b9530a8029c7') in 0.081398 seconds 
-  Import took 0.088900 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.038073 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.825 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1825ms)
-		BeginReloadAssembly (300ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (159ms)
-		EndReloadAssembly (1413ms)
-			LoadAssemblies (182ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (504ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (521ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 106.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3075.
-Total: 4.751600 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.155600 ms MarkObjects: 4.284200 ms  DeleteObjects: 0.029600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 124.388415 seconds.
-  path: Assets/Cell_Explorer/Meshes/NucleusRotation.anim
-  artifactKey: Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/NucleusRotation.anim using Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b7197acf3ba35213aa256caac7da02') in 0.038858 seconds 
-  Import took 0.044624 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.35 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1651ms)
-		BeginReloadAssembly (177ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1370ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (470ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (520ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 106.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3078.
-Total: 4.052600 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.134400 ms MarkObjects: 3.649500 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 254.413615 seconds.
-  path: Assets/Cell_Explorer/Meshes/NucleusRotation.anim
-  artifactKey: Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cell_Explorer/Meshes/NucleusRotation.anim using Guid(f6075f9660bf92648834ac071b1d6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd81cb89d9afac26451a5e4f252685') in 0.022607 seconds 
-  Import took 0.028108 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020531 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.551 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1552ms)
-		BeginReloadAssembly (170ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1280ms)
-			LoadAssemblies (158ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (448ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (478ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 106.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3081.
-Total: 4.204700 ms (FindLiveObjects: 0.244700 ms CreateObjectMapping: 0.146300 ms MarkObjects: 3.789300 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018580 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Docs\Development Condominium\Fenestra\OGN_Beta_Repo\Organauts_Beta\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <55729f52d042492e9efc384182ae2feb>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.512 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1513ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (469ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
-Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 106.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3084.
-Total: 3.811900 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.131200 ms MarkObjects: 3.398200 ms  DeleteObjects: 0.021200 ms)
+Total: 5.084500 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.152400 ms MarkObjects: 4.617700 ms  DeleteObjects: 0.034200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

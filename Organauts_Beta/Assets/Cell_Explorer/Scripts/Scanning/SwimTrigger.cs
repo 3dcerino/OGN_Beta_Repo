@@ -9,27 +9,29 @@ public class SwimTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        string tag = other.tag;
+        string otherTag = other.tag;
 
-        if(tag.Equals("LeftScanCube") && (triggerType == PlayerSwim.TriggerType.Left || triggerType == PlayerSwim.TriggerType.Middle))
+        if(otherTag.Equals("LeftSwimCube") && (triggerType == PlayerSwim.TriggerType.Left || triggerType == PlayerSwim.TriggerType.Middle))
         {
-            swim.RegisterEnter(Time.time, triggerType);
+            swim.RegisterEnter(Time.time, triggerType, PlayerSwim.HandType.Left);
         }
 
-        else if(tag.Equals("RightScanCube") && (triggerType == PlayerSwim.TriggerType.Right || triggerType == PlayerSwim.TriggerType.Middle))
+        else if(otherTag.Equals("RightSwimCube") && (triggerType == PlayerSwim.TriggerType.Right || triggerType == PlayerSwim.TriggerType.Middle))
         {
-            swim.RegisterEnter(Time.time, triggerType);
+            swim.RegisterEnter(Time.time, triggerType, PlayerSwim.HandType.Right);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (tag.Equals("LeftScanCube") && (triggerType == PlayerSwim.TriggerType.Left || triggerType == PlayerSwim.TriggerType.Middle))
+        string otherTag = other.tag;
+
+        if (otherTag.Equals("LeftSwimCube") && (triggerType == PlayerSwim.TriggerType.Left || triggerType == PlayerSwim.TriggerType.Middle))
         {
             swim.RegisterExit(Time.time, triggerType);
         }
 
-        else if (tag.Equals("RightScanCube") && (triggerType == PlayerSwim.TriggerType.Right || triggerType == PlayerSwim.TriggerType.Middle))
+        else if (otherTag.Equals("RightSwimCube") && (triggerType == PlayerSwim.TriggerType.Right || triggerType == PlayerSwim.TriggerType.Middle))
         {
             swim.RegisterExit(Time.time, triggerType);
         }

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LeftScanCube
   - RightScanCube
+  - RightSwimCube
+  - LeftSwimCube
   layers:
   - Default
   - TransparentFX

@@ -25,24 +25,105 @@ public class PlayerSwim : MonoBehaviour
         Right
     }
 
-
-    public void RegisterEnter(float time, TriggerType trigger)
+    public enum HandType
     {
+        Left,
+        Right
+    }
 
+    public void RegisterEnter(float time, TriggerType trigger, HandType hand)
+    {
+        switch (trigger)
+        {
+            case TriggerType.Right:
+
+                Debug.Log("Right Enter, phase " + swimPhase);
+
+                if (swimPhase != 1)
+                {
+                    ResetSwim();
+                }
+
+                else
+                {
+                    rightHandRegistered = true;
+                    rightHandTime = time;
+
+                    CheckNextPhase();
+                }
+                break;
+
+
+            case TriggerType.Left:
+
+                Debug.Log("Left Enter, phase " + swimPhase);
+                if (swimPhase != 1)
+                {
+                    ResetSwim();
+                }
+
+                else
+                {
+                    leftHandRegistered = true;
+                    leftHandTime = time;
+
+                    CheckNextPhase();
+                }
+                break;
+
+
+            case TriggerType.Middle:
+
+                Debug.Log("Middle Enter, phase " + swimPhase );
+
+                if (swimPhase != 0)
+                {                    
+                    ResetSwim();
+                }
+
+                else
+                {
+                    if(hand == HandType.Right)
+                    {
+                        Debug.Log("Was right hand");
+                        rightHandRegistered = true;
+                        rightHandTime = time;
+                    }
+
+                    else
+                    {
+                        Debug.Log("Was left hand");
+                        leftHandRegistered = true;
+                        leftHandTime = time;
+                    }
+
+                    if(leftHandRegistered && rightHandRegistered)
+                    {
+                        NextPhase();
+                    }
+                }
+
+                break;
+        }
     }
 
     public void RegisterExit(float time, TriggerType trigger)
     {
-        if(swimPhase == 2 && trigger != TriggerType.Middle)
+        Debug.Log("exit, phase " + swimPhase ); 
+
+        if (swimPhase == 2 && trigger != TriggerType.Middle)
         {
             switch (trigger)
             {
                 case TriggerType.Right:
+                    Debug.Log("Right exit");
                     rightHandTime = time;
                     rightHandRegistered = true;
                     break;
 
+
                 case TriggerType.Left:
+                    Debug.Log("Left Exit");
                     leftHandTime = time;
                     leftHandRegistered = true;
                     break;
@@ -50,7 +131,7 @@ public class PlayerSwim : MonoBehaviour
 
             if(rightHandRegistered && leftHandRegistered)
             {
-                if(HandsAreSynchronized() && MovementIsntDelayed(time))
+                if(HandsAreSynchronized() && !MovementIsDelayed(time))
                 {
                     SwimSuccesful();                   
                 }
@@ -78,13 +159,38 @@ public class PlayerSwim : MonoBehaviour
         swimPhase = 0;
     }
 
+    private void NextPhase()
+    {
+        rightHandRegistered = false;
+        leftHandRegistered = false;
+        lastPhaseTime = Time.time;
+        swimPhase++;
+    }
+
+
+    private void CheckNextPhase()
+    {
+        if (rightHandRegistered && leftHandRegistered)
+        {
+            if (HandsAreSynchronized())
+            {
+                NextPhase();
+            }
+
+            else
+            {
+                ResetSwim();
+            }
+        }
+    }
+
     private bool HandsAreSynchronized()
     {
         return Mathf.Abs(rightHandTime - leftHandTime) <= synchroTolerance;
     }
 
-    private bool MovementIsntDelayed(float phaseTime)
+    private bool MovementIsDelayed(float phaseTime)
     {
-        return phaseTime - lastPhaseTime <= delayTolerance;
+        return phaseTime - lastPhaseTime > delayTolerance;
     }
 }

@@ -67,8 +67,9 @@ public class Scanner : MonoBehaviour
         scanLight.range = target.MinLightRange;
         scanLight.enabled = true;
 
-        Vector3 midPoint = transform.position + (Vector3.Normalize(rightHandCube.position - transform.position) * (Vector3.Distance(transform.position, rightHandCube.position) / 2));
-        Instantiate(scanVFX, midPoint, Quaternion.identity);
+        //Instantiates VFX in the point between both hands
+        //Vector3 midPoint = transform.position + (Vector3.Normalize(rightHandCube.position - transform.position) * (Vector3.Distance(transform.position, rightHandCube.position) / 2));
+        //Instantiate(scanVFX, midPoint, Quaternion.identity);
 
 
         float elapsedScanTime = 0;

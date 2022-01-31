@@ -22,6 +22,7 @@ public class ObjectiveUI : MonoBehaviour
     [Header("Object References")]
     [SerializeField] private GridLayoutGroup spriteContainer;
     [SerializeField] private Text countDisplay;
+    [SerializeField] private GameObject questCompletedUI;
 
 
     private Image[] objectiveSprites;
@@ -74,8 +75,17 @@ public class ObjectiveUI : MonoBehaviour
         {
             objectivesScanned++;
             UpdateUIText();
+            CheckQuestStatus();
         }
 
+    }
+
+    private void CheckQuestStatus()
+    {
+        if(objectivesScanned >= objectiveSprites.Length)
+        {
+            QuestCompleted();
+        }
     }
 
     private void UpdateUIText()
@@ -97,5 +107,25 @@ public class ObjectiveUI : MonoBehaviour
             
         transform.Translate(usingHandTracking ? distanceFromHand : distanceFromController, Space.Self);
         transform.Rotate(usingHandTracking ? panelRotation_Hands : panelRotation_Controller, Space.Self);
+    }
+
+
+    private void QuestCompleted()
+    {
+        //Provisional behaviour:
+        Invoke("ShowCompletedCanvas", 6);
+        Invoke("ReturnToMenu",19);
+    }
+
+    //Provisional Methods:
+    void ReturnToMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
+    void ShowCompletedCanvas()
+    {
+        questCompletedUI.SetActive(true);
+
     }
 }

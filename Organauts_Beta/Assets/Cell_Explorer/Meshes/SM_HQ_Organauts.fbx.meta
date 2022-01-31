@@ -3,7 +3,17 @@ guid: 7c647ff3bdcc6c9429bbae77394c8161
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow_main
+    second: {fileID: 2100000, guid: d8d2ed82ea0990a4fbaee4fe9eb55a8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keyboard_tex
+    second: {fileID: 2100000, guid: 9d138e39dd7def54cbfbca9e80304489, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

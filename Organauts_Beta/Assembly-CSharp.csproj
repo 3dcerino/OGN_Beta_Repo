@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\AchievementProgress.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerHMD.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
@@ -73,6 +76,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\OVRLayerAttribute.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\MatchmakingBrowseResult.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\Camera2DController.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\DebugBehaviours.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatar.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\AssetFileDownloadCancelResult.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\CellPartController.cs" />
@@ -136,6 +140,7 @@
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Modifiers\MDM_SculptingPro.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\LaunchDetails.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\PlayerSwim.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRXRSDKNative.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRResources.cs" />
@@ -337,6 +342,7 @@
     <Compile Include="Assets\Oculus\Platform\Scripts\StandalonePlatform.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\ButtonVisualController.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\LeaderboardEntry.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\SwimTrigger.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\Product.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\ObjectiveManager.cs" />
     <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DShotgun.cs" />
@@ -571,9 +577,6 @@
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Shapes\MD_Triangle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\IVoipPCMSource.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\DebugBehaviours.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\PlayerSwim.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\SwimTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -813,12 +816,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

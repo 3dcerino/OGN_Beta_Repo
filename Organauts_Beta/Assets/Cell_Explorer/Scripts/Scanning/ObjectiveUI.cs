@@ -6,16 +6,28 @@ using UnityEngine.UI;
 
 public class ObjectiveUI : MonoBehaviour
 {
-    [SerializeField] private GridLayoutGroup spriteContainer;
-    [SerializeField] private Text countDisplay;
+    [Header("Canvas position when using hands")]
+    [SerializeField] private Vector3 distanceFromHand;
+    [SerializeField] private Vector3 panelRotation_Hands;
+
+    [Header("Canvas position when using Controller")]
+    [SerializeField] private Vector3 distanceFromController;
+    [SerializeField] private Vector3 panelRotation_Controller;
 
     [Header("Sprite layout parameters")]
     [SerializeField] private float spriteSize = 350;
     [SerializeField] private float spriteSpacing = 30;
     [SerializeField] private Color deactivatedSpriteShade = Color.black;
 
+    [Header("Object References")]
+    [SerializeField] private GridLayoutGroup spriteContainer;
+    [SerializeField] private Text countDisplay;
+
+
     private Image[] objectiveSprites;
     private int objectivesScanned;
+
+
 
     public void PopulateSpriteList(Organell[] organelleList)
     {
@@ -32,7 +44,7 @@ public class ObjectiveUI : MonoBehaviour
         int index = 0;
         foreach (Organell organelle in organelleList)
         {
-            GameObject spriteObj = new GameObject(organelle.OrganelleName + "_sprite", typeof(RectTransform),typeof(Image));
+            GameObject spriteObj = new GameObject(organelle.OrganelleName + "_sprite", typeof(RectTransform), typeof(Image));
             Image spriteImage = spriteObj.GetComponent<Image>();
 
             spriteImage.sprite = organelle.Sprite;
@@ -63,7 +75,7 @@ public class ObjectiveUI : MonoBehaviour
             objectivesScanned++;
             UpdateUIText();
         }
-        
+
     }
 
     private void UpdateUIText()
@@ -75,5 +87,15 @@ public class ObjectiveUI : MonoBehaviour
     {
         spriteContainer.cellSize = Vector2.one * spriteSize;
         spriteContainer.spacing = Vector2.one * spriteSpacing;
+    } 
+
+
+    public void AdjustUIToHands(bool usingHandTracking)
+    {
+        transform.localPosition = Vector3.zero;
+        transform.localRotation = usingHandTracking ? Quaternion.Euler(90, 0, -90) : Quaternion.identity;
+            
+        transform.Translate(usingHandTracking ? distanceFromHand : distanceFromController, Space.Self);
+        transform.Rotate(usingHandTracking ? panelRotation_Hands : panelRotation_Controller, Space.Self);
     }
 }

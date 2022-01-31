@@ -8668,12 +8668,17 @@ PrefabInstance:
     - target: {fileID: 2456427799688671970, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}
       propertyPath: distanceFromHand.x
-      value: 0
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 2456427799688671970, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}
       propertyPath: distanceFromHand.y
-      value: 0
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456427799688671970, guid: 014dc334a4ce66340abe0fd6ab33311d,
+        type: 3}
+      propertyPath: distanceFromHand.z
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2456427799688671970, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}
@@ -8818,12 +8823,12 @@ PrefabInstance:
     - target: {fileID: 2456427800018345103, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.02459398
+      value: 0.01073581
       objectReference: {fileID: 0}
     - target: {fileID: 2456427800018345103, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.007763268
+      value: -0.0025662447
       objectReference: {fileID: 0}
     - target: {fileID: 2456427800678411726, guid: 014dc334a4ce66340abe0fd6ab33311d,
         type: 3}

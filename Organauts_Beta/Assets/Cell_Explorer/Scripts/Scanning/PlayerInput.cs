@@ -11,6 +11,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Transform playerCamera;
     [SerializeField] private ToggleUI toggleUI;
 
+
     private OVRInput.Controller currentController = OVRInput.Controller.None;
 
 
@@ -30,7 +31,7 @@ public class PlayerInput : MonoBehaviour
 
         if (currentController != OVRInput.Controller.Hands) 
         {
-            //Right Trigger to go forward, left to go backward
+            //Right Trigger to move forward, left to move backwards
             if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
             {
                 player.RestrictDirection(playerCamera.transform.forward);
@@ -60,6 +61,8 @@ public class PlayerInput : MonoBehaviour
                 scanner.StopScan();
             }
             */
+
+
         }
     }
 

@@ -4,37 +4,31 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float movementForce = 1.5f;
+    [SerializeField] private float movementForce = 90f;
     [SerializeField] private Rigidbody player;
 
     private Vector3 restrictedDirection;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-    public void MoveRestricted()
-    {
-        player.AddRelativeForce(restrictedDirection);
-    }
-
+    
     public void RestrictDirection(Vector3 direction)
     {
         restrictedDirection = direction.normalized;
     }
 
+    public void MoveRestricted()
+    {
+        player.AddRelativeForce(restrictedDirection * movementForce * Time.deltaTime);
+    }
+
+
     public void Move(Vector3 direction)
     {
-        player.AddRelativeForce(direction.normalized);
+        player.AddRelativeForce(direction.normalized * movementForce * Time.deltaTime);
+    }
+
+    public void Impulse(Vector3 direction, float movForce)
+    {
+        player.AddRelativeForce(direction.normalized * movForce, ForceMode.Impulse);
     }
 
 }

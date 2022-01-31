@@ -1782,7 +1782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 477705081}
-  loadSFX: {fileID: 8300000, guid: a38d6fb0cb389a94aa72f86cedf6e54b, type: 3}
+  loadSFX: {fileID: 8300000, guid: c20868b2a5d798f4ca61d0808553e322, type: 3}
   uiElementsOff:
   - {fileID: 1963713787}
   - {fileID: 535322491}
@@ -10000,7 +10000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 477705081}
-  loadSFX: {fileID: 8300000, guid: a38d6fb0cb389a94aa72f86cedf6e54b, type: 3}
+  loadSFX: {fileID: 8300000, guid: c20868b2a5d798f4ca61d0808553e322, type: 3}
   uiElementsOff:
   - {fileID: 787956451}
   - {fileID: 795452269}

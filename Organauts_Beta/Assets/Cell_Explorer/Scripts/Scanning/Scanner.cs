@@ -15,14 +15,19 @@ public class Scanner : MonoBehaviour
     [Header("Scanning Parameters")]
     [SerializeField] private float timeToScan = 2.5f;
     [SerializeField] private float lightStrobeSpeed = 1.3f;
+    [SerializeField] private Vector3 scanCubePosWHands;
+    [SerializeField] private Vector3 scanCubePosWControl;
 
     private bool scanning = false;
     private bool canInterrupt = true;
     private Coroutine scanRoutine;
 
+
     public void StartScan(ScannableObject scanTarget)
     {
         Debug.Log("Trying to scan " + scanTarget.GetOrganelleData().OrganelleName);
+
+        
 
         if (levelObjectives.AlreadyAccomplished(scanTarget.GetOrganelleData()))
         {
@@ -41,13 +46,13 @@ public class Scanner : MonoBehaviour
 
     public void StopScan()
     {
-        if (!scanning && !canInterrupt && scanRoutine != null) 
+        if (!scanning && !canInterrupt && scanRoutine.Equals(null)) 
             return;
 
         Debug.Log("Scan Interrupted");
 
-        StopCoroutine(scanRoutine);
         ResetScanParameters();
+        StopCoroutine(scanRoutine);
         
         //Maybe we can turn off the light slowly if scan is interrupted? 
     }
@@ -100,6 +105,15 @@ public class Scanner : MonoBehaviour
         scanLight.enabled = false;
         scanLight.transform.localPosition = Vector3.zero;
         scanning = false;
+    }
+
+    
+    public void AdjustTriggerToHands(bool usingHands)
+    {
+        Vector3 rightMirror = transform.localPosition = usingHands ? scanCubePosWHands : scanCubePosWControl;
+        rightMirror.x = -rightMirror.x;
+        rightHandCube.localPosition = rightMirror;
+        rightHandCube.localRotation = transform.localRotation = Quaternion.Euler(usingHands ? Vector3.zero : new Vector3(0,-90));
     }
 }
 

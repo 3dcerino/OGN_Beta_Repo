@@ -88,6 +88,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRDebugInfo.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\CloudStorageConflictMetadata.cs" />
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Essentials\MD_MeshEditorRuntime.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\PlayerInput.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager_Sound.cs" />
     <Compile Include="Assets\Cell_Explorer\Scripts\InterpolatedFollowTransform.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\PlatformInitialize.cs" />
@@ -569,7 +570,7 @@
     <Compile Include="Assets\External\MD_FullPackage\MD_Core\Shapes\MD_Triangle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\IVoipPCMSource.cs" />
-    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\PlayerInput.cs" />
+    <Compile Include="Assets\Cell_Explorer\Scripts\Scanning\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

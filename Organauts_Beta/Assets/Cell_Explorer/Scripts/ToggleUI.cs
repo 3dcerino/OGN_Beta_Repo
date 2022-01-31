@@ -5,6 +5,11 @@ using UnityEngine;
 public class ToggleUI : MonoBehaviour
 {
     [SerializeField] GameObject playerUI;
+    [SerializeField] private float handViewAngle = 100;
+    [SerializeField] private float controllerViewAngle = 120;
+
+    private float viewAngle = 100;
+
     Vector3 zeroScale = new Vector3(0, 0, 0);
     Vector3 defaultScale;
 
@@ -25,7 +30,7 @@ public class ToggleUI : MonoBehaviour
         //Get the angle between the camera and the ui, if its below 40, ui pops up
         angle = Vector3.Angle(playerUI.transform.forward, transform.forward * -1);
 
-        if (angle > 100)
+        if (angle > viewAngle)
         {
             playerUI.transform.localScale = Vector3.MoveTowards(playerUI.transform.localScale, defaultScale, Time.deltaTime * speed);
             //StopAllCoroutines();
@@ -74,5 +79,10 @@ public class ToggleUI : MonoBehaviour
             yield return null;
         }
     
+    }
+
+    public void SetViewAngle(bool isHands)
+    {
+        viewAngle = isHands ? handViewAngle : controllerViewAngle;
     }
 }

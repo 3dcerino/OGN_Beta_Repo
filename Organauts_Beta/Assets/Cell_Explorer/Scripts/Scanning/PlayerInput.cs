@@ -50,17 +50,17 @@ public class PlayerInput : MonoBehaviour
 
 
             //Press X to Scan
-            /*
+            
             if (OVRInput.GetDown(OVRInput.Button.Three))
             {
-                scanner.SetScanEnabled(true);
+                scanner.ScanWithButton();
             }
 
             else if (OVRInput.GetUp(OVRInput.Button.Three))
             {
                 scanner.StopScan();
             }
-            */
+            
 
 
         }

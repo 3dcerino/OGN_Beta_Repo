@@ -28,7 +28,10 @@ public class Test_Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (OVRInput.GetDown(OVRInput.Button.Three))
+        {
+            StartCoroutine(LoadScene());
+        }
     }
 
     private void PlaySound(AudioClip clip)

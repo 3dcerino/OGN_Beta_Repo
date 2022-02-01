@@ -22,11 +22,13 @@ public class Scanner : MonoBehaviour
     private bool canInterrupt = true;
     private Coroutine scanRoutine;
 
+    //Scannable is stashed for when player attempts to scan with buttons;
+    private ScannableObject stashedOrganelle;
 
     public void StartScan(ScannableObject scanTarget)
     {
         Debug.Log("Trying to scan " + scanTarget.GetOrganelleData().OrganelleName);
-
+        stashedOrganelle = scanTarget;
         
 
         if (levelObjectives.AlreadyAccomplished(scanTarget.GetOrganelleData()))
@@ -38,6 +40,9 @@ public class Scanner : MonoBehaviour
 
         else
         {
+            if (scanning)
+                return;
+
             scanLight.transform.position = scanTarget.transform.position + scanTarget.GetOrganelleData().LightPositionOffset;
             scanRoutine = StartCoroutine(Scan(scanTarget.GetOrganelleData()));
         }
@@ -46,14 +51,17 @@ public class Scanner : MonoBehaviour
 
     public void StopScan()
     {
-        if (!scanning && !canInterrupt && scanRoutine.Equals(null)) 
+        if (!scanning && !canInterrupt && !(scanRoutine != null)) 
             return;
 
         Debug.Log("Scan Interrupted");
 
-        ResetScanParameters();
-        StopCoroutine(scanRoutine);
+        if(scanRoutine != null)
+        {
+            StopCoroutine(scanRoutine);
+        }
         
+        ResetScanParameters();
         //Maybe we can turn off the light slowly if scan is interrupted? 
     }
 
@@ -115,6 +123,15 @@ public class Scanner : MonoBehaviour
         rightMirror.x = -rightMirror.x;
         rightHandCube.localPosition = rightMirror;
         rightHandCube.localRotation = transform.localRotation = Quaternion.Euler(usingHands ? Vector3.zero : new Vector3(0,-90));
+    }
+
+
+    public void ScanWithButton()
+    {
+        if(!scanning && stashedOrganelle != null)
+        {
+            StartScan(stashedOrganelle);
+        }
     }
 }
 
